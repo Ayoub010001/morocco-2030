@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from './components/Nav'
-// import Home from './views/Home'
-import VisitPlaces from './views/VisitPlaces';
+import Home from './views/Home'
+// import VisitPlaces from './views/VisitPlaces';
 import Footer from './components/Footer'
 
 
@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      {/* <Home /> */}
-      <VisitPlaces />
+      <Home />
+      {/* <VisitPlaces /> */}
       <Footer />
     </div>
   );
