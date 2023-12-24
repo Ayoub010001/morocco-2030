@@ -4,15 +4,6 @@ import RightArrow from '../assets/RightArrow.svg'
 import LeftArrow from '../assets/LeftArrow.svg'
 
 
-// const prevHandle = () =>{
-// // card width 250px + gap  40px
-//     document.getElementById('carousel').scrollLeft -= 290;
-// }
-// const nextHandle = () =>{
-
-//     document.getElementById('carousel').scrollLeft += 290;
-// }
-
 
 function Countries({country, stadiums}) {
 
@@ -49,8 +40,8 @@ function Countries({country, stadiums}) {
                 </div>
                 <div id={carouselId} className={`carousel`}>
                     {
-                        stadiums.map((stadium, index)=>{
-                            return <CardStadium stadium={stadium} key={index}/>
+                        stadiums.map((stadium)=>{
+                            return <CardStadium stadium={stadium} key={stadium.id}/>
                         })
                     }
                 </div>

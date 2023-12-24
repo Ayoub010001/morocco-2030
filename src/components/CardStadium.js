@@ -13,7 +13,7 @@ function CardStadium({stadium}) {
             <p>City : <span>{stadium.city}</span></p>
             <p>Capacity : <span>{stadium.capacity}</span></p>
         </div>
-        <Button />
+        <Button stadiumId={stadium.id}/>
     </div>
   )
 }

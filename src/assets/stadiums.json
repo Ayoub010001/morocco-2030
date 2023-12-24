@@ -1,6 +1,7 @@
 {
     "stadiums": [
       {
+        "id":1,
         "name": "Grand Stade de Casablanca",
         "city": "Benslimane",
         "country": "Morocco",
@@ -11,7 +12,7 @@
         "matches": [
             
         ],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Hassan II Mosque",
             "description":"Magnificent Islamic architectural mosque on the Atlantic coast of Casablanca",
@@ -98,6 +99,7 @@
       },
 
       {
+        "id":2,
         "name": "Prince Moulay Abdellah Stadium",
         "city": "Rabat",
         "country": "Morocco",
@@ -108,7 +110,7 @@
         "matches": [
           
         ],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Hassan Tower",
             "description": "A historic and religious landmark",
@@ -173,7 +175,7 @@
             "name": "Russian Orthodox Church",
             "description": "Cultural and religious oasis",
             "description_long": "The Russian Orthodox Church in Rabat stands as a cultural and religious oasis, representing the diverse tapestry of the city. Constructed with distinctive Russian architectural elements, the church offers a tranquil space for worship and reflection. Adorned with ornate domes and intricate details, it provides a unique cultural experience for visitors interested in exploring Rabat's religious diversity and architectural heritage.",
-            "category": "Religious Monument",
+            "category": ["Religious Monument"],
             "distance": 7.1,
             "Religious Affiliation": "Eastern Orthodox Christianity",
             "image": "./assets/images/monuments/rabat/russian_orthodox/main.png",
@@ -185,6 +187,7 @@
 
 
       {
+        "id":3,
         "name": "Ibn Battouta Stadium",
         "city": "Tangier",
         "country": "Morocco",
@@ -195,7 +198,7 @@
         "matches": [
           
         ],
-        "places_to_visit": [
+        "places": [
 
           {
             "name": "Tangier American Legation Museum",
@@ -264,6 +267,7 @@
 
 
       {
+        "id":4,
         "name": "Adrar Stadium",
         "city": "Agadir",
         "country": "Morocco",
@@ -274,7 +278,7 @@
         "matches": [
       
         ],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Agadir Marina",
             "description": "Picturesque marina with a vibrant atmosphere",
@@ -363,6 +367,7 @@
 
 
       {
+        "id":5,
         "name": "Marrakech Stadium",
         "city": "Marrakech",
         "country": "Morocco",
@@ -373,7 +378,7 @@
         "matches": [
           
         ],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Koutoubia Mosque",
             "description": "The largest mosque in Marrakech",
@@ -461,6 +466,7 @@
       },
 
       {
+        "id":6,
         "name": "Stade du Complexe Sportif de Fes",
         "city": "Fez",
         "country": "Morocco",
@@ -471,7 +477,7 @@
         "matches": [
           
         ],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Musee Dar al-Makhzen",
             "description": "A museum showcasing Moroccan art and history",
@@ -530,6 +536,7 @@
       },
 
       {
+        "id":7,
         "name": "Camp Nou",
         "city": "Barcelona",
         "country": "Spain",
@@ -541,7 +548,7 @@
           "UEFA Champions League Final",
           "La Liga Matches"
         ],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Sagrada Familia",
             "description": "A stunning basilica designed by Antoni Gaudi",
@@ -655,6 +662,7 @@
       },
 
       {
+        "id":8,
         "name": "Santiago Bernabéu",
         "city": "Madrid",
         "country": "Spain",
@@ -662,7 +670,7 @@
         "opened": 1947,
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "Santiago Bernabéu is one of the most famous stadiums in the world, located in Madrid, Spain. It is the home ground of Real Madrid, one of the most successful football clubs in history. The stadium has a seating capacity of 81,044 and has been the stage for numerous historic matches and events. Santiago Bernabéu is an iconic venue that has played a significant role in the rich heritage of football.",
-        "places_to_visit": [
+        "places": [
           {
             "name": "Prado Museum",
             "description": "A world-renowned art museum",
@@ -776,6 +784,7 @@
       },
 
       {
+        "id":9,
         "name": "Metropolitano Stadium",
         "city": "Madrid",
         "country": "Spain",
@@ -783,7 +792,7 @@
         "opened": 2017,
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "Metropolitano Stadium, also referred to as Cívitas Metropolitano for sponsorship reasons, is one of the world's most modern stadiums and the home ground of Atlético de Madrid. It can seat over 70,000 people and is well connected by public transit to the city centre. In addition to hosting Atlético de Madrid’s home games, it also hosts large-scale concerts and has a fascinating museum that is open to the public. In 2019, it hosted the UEFA Champions League Final between Liverpool and Tottenham Hotspur, and subsequently, the UEFA included the stadium in its ‘Elite Stadiums’ list, the maximum distinction from European football’s governing body. The new stadium has also become a venue for large-scale concerts that have so far included Bruno Iron Maiden and Ed Sheeran.",
-        "places_to_visit": [
+        "places": [
           {
             "name": "Prado Museum",
             "description": "A world-renowned art museum",
@@ -897,6 +906,7 @@
       },
 
       {
+        "id":10,
         "name": "La Cartuja",
         "city": "Seville",
         "country": "Spain",
@@ -904,7 +914,7 @@
         "opened": 1999,
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "La Cartuja, also known as the Estadio Olímpico de la Cartuja, is a multi-purpose stadium located in Seville, Spain. It is the home ground of Sevilla FC and has hosted several international events, including the 1999 FIFA Women's World Cup and the 2017 FIFA Confederations Cup. The stadium is known for its unique design, which features a distinctive red-and-white striped exterior and a large bronze statue of the Virgin Mary, symbolizing the city's devotion to the Virgin of the Assumption.",
-        "places_to_visit": [
+        "places": [
           {
             "name": "Alcázar of Seville",
             "description": "Royal palace with stunning Mudejar, Gothic, Renaissance, and Baroque architectural elements.",
@@ -982,6 +992,7 @@
       },
 
       {
+        "id":11,
         "name": "San Mamés",
         "city": "Bilbao",
         "country": "Spain",
@@ -990,7 +1001,7 @@
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "San Mamés is a modern and iconic stadium in Bilbao, Spain. It is the home of Athletic Club Bilbao and has hosted various national and international football events.",
         "matches": [],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Guggenheim Museum Bilbao",
             "description": "Architectural masterpiece housing contemporary art collections.",
@@ -1049,6 +1060,7 @@
       },
 
       {
+        "id":12,
         "name": "Riazor",
         "city": "La Coruña",
         "country": "Spain",
@@ -1057,7 +1069,7 @@
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "Riazor is a historic football stadium in La Coruña, Spain, known for hosting RC Deportivo de La Coruña's home matches. It has witnessed decades of football history and remains a significant sporting venue.",
         "matches": [],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Tower of Hercules",
             "description": "Ancient Roman lighthouse and UNESCO World Heritage Site.",
@@ -1144,6 +1156,7 @@
       },
 
       {
+        "id":13,
         "name": "La Rosaleda",
         "city": "Malaga",
         "country": "Spain",
@@ -1152,7 +1165,7 @@
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "La Rosaleda is the home stadium of Málaga CF, located in Malaga, Spain. With a capacity of 30,044, it has been a witness to numerous football events and is an iconic venue in the city.",
         "matches": [],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Alcazaba of Malaga",
             "description": "Historical fortress with panoramic views",
@@ -1247,6 +1260,7 @@
       },
 
       {
+        "id":14,
         "name": "La Romareda",
         "city": "Zaragoza",
         "country": "Spain",
@@ -1255,7 +1269,7 @@
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "La Romareda is the home stadium of Real Zaragoza, located in Zaragoza, Spain. With a capacity of 33,608, it is one of the iconic football venues in the city.",
         "matches": [],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Basilica-Cathedral of Our Lady of the Pillar",
             "description": "Spiritual and architectural marvel",
@@ -1341,6 +1355,7 @@
       },
 
       {
+        "id":15,
         "name": "Nou Mestalla",
         "city": "Valencia",
         "country": "Spain",
@@ -1349,7 +1364,7 @@
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "Mestalla is the home stadium of Valencia CF, located in Valencia, Spain. With a capacity of 75000, it is one of the oldest and iconic football stadiums in the country.",
         "matches": [],
-        "places_to_visit": [
+        "places": [
           {
             "name": "City of Arts and Sciences",
             "description": "Futuristic architectural complex",
@@ -1426,6 +1441,7 @@
       },
 
       {
+        "id":16,
         "name": "Estádio da Luz",
         "city": "Lisbon",
         "country": "Portugal",
@@ -1436,7 +1452,7 @@
         "matches": [
           
         ],
-        "places_to_visit": [
+        "places": [
           {
             "name": "Belém Tower",
             "description": "Historical fortress and UNESCO World Heritage Site",
@@ -1513,6 +1529,7 @@
       },
 
       {
+        "id":17,
         "name": "Estádio José Alvalade",
         "city": "Lisbon",
         "country": "Portugal",
@@ -1520,7 +1537,7 @@
         "opened": 2003,
         "image": ["./assets/images/Stadiums/grand_stade_de_casablanca.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca1.jpg", "./assets/images/Stadiums/grand_stade_de_casablanca2.jpg"],
         "description": "Estádio José Alvalade is a prominent football stadium situated in Lisbon, Portugal. It is the proud home of Sporting Clube de Portugal, one of the country's most esteemed football clubs. The stadium, with a seating capacity of 50,095, opened its doors in 2003 and has since become a symbol of Sporting's rich history and passionate fanbase.",
-        "places_to_visit": [
+        "places": [
           {
             "name": "Belém Tower",
             "description": "Historical fortress and UNESCO World Heritage Site",

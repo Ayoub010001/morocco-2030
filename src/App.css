@@ -36,9 +36,11 @@ footer{
     height: 100%;
     margin: auto;
     display: flex;
+    flex-direction: row;
     gap: 15px;
 
 }
+
 .Hero-main{
     width:60%;
     display: flex;
@@ -48,6 +50,7 @@ footer{
 }
 .Hero-img{
     width:40%;
+    height: 500px;
     position: relative;
 }
 /* Hero Images */
@@ -56,8 +59,8 @@ footer{
     width: 160%;
     position: absolute;
     z-index: 0;
-    left: -60px;
-    top:50px;
+    left: -30%;
+    bottom:-9px;
     opacity: 0.15;
     mix-blend-mode: lighten;
 }
@@ -66,6 +69,7 @@ footer{
     position: absolute;
     z-index: 4;
     bottom: -9px;
+    left: -10%;
     filter: drop-shadow(-15px 4px 15px 0px #055C2C);
 }
 
@@ -84,11 +88,51 @@ footer{
 .Hero-main > p{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 147.3%; /* 29.46px */
     margin-top: 40px;
 }
+
+@media only screen and (max-width: 1060px) {
+    .Hero-section, .counter, .Main--section , .country--section, .Main--section > h1{
+        margin: 0 8%;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .Hero-section{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .Hero-main{
+        width: 100%;
+    }
+    .Hero-img{
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+    .Hero-img > img{
+        height: 100%;
+        width: auto;
+        left: 2%;
+    }
+    .Hero-img > .bg--mascot{
+        left: -8%;
+    }
+    .hero{
+        height: 100%;
+    }
+
+    .counter{
+        gap: 2%;
+    }
+
+  }
+
+
+
 
 /* Counter section */
 
@@ -108,14 +152,13 @@ footer{
     height: 150px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 14%;
 }
 .countNumber{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 70px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: 70px; /* 100% */

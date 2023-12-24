@@ -16,9 +16,9 @@ const porStadiums = allStadiums.filter((stadium)=>{
   return stadium.country === "Portugal";
 })
 
-console.log(morStadiums)
-console.log(spaStadiums)
-console.log(porStadiums)
+// console.log(morStadiums)
+// console.log(spaStadiums)
+// console.log(porStadiums)
 
 function Main() {
   return (

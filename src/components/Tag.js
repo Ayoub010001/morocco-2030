@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Tag() {
+function Tag({tagName, tagValue}) {
   return (
     <div className='tag--card'>
-        <p className='tag--label'>Location</p>
-        <p className='tag--data'>Benslimane</p>
+        <p className='tag--label'>{tagName}</p>
+        <p className='tag--data'>{tagValue}</p>
     </div>
   )
 }
