@@ -17,7 +17,7 @@ function StadiumInfo({selectedStadium}) {
         <p>
           {selectedStadium.description}
         </p>
-        <ImageGrid />
+        <ImageGrid stadium={selectedStadium}/>
     </section>
   )
 }

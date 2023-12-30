@@ -96,8 +96,8 @@ function PlacesContainer({Stadium}) {
                 </div>
             </form>
             {
-                placesVisit.map((place)=>{
-                    return <PlaceSection place={place}/>
+                placesVisit.map((place, index)=>{
+                    return <PlaceSection place={place} key={index}/>
                 })
             }
 

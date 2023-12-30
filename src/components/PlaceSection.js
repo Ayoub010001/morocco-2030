@@ -6,8 +6,8 @@ function PlaceSection({place}) {
     <section className='place--section'>
       <h3>{place.name}</h3>
       <div className='category--section'>
-          {place.category.map(category=>{
-            return (<div className='badge categoty--badge'>
+          {place.category.map((category,index)=>{
+            return (<div className='badge categoty--badge' key={index}>
               <p>{category}</p>
             </div>)
           })}

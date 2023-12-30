@@ -14,7 +14,6 @@ function VisitPlaces() {
 
   const selectedStadium = allStadiums.filter((stadium)=>{
     return stadium.id.toString() === stadiumId.toString();
-
   })
 
 

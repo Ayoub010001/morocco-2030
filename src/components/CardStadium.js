@@ -1,12 +1,11 @@
 import React from 'react'
 import Button from './Button'
-import stadiumOne from '../assets/stadium_ai_1.jfif'
 
 function CardStadium({stadium}) {
   return (
     <div className='CardStadium'>
         <div className='cardImg--section'>
-            <img  src={stadiumOne} alt='stadium'/>
+            <img  src={stadium.image[0]} alt='stadium' height="100%"/>
         </div>
         <div className='cardInfo--section'>
             <h3>{stadium.name}</h3>

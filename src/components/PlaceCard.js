@@ -1,7 +1,7 @@
 import React from 'react'
-import Std from '../assets/stadium_ai_3.jfif'
 
 function PlaceCard({place}) {
+ 
   return (
     <div className='PlaceCard--Container'>
          <div className='PlaceCard--Img'>
@@ -11,7 +11,7 @@ function PlaceCard({place}) {
                 <div className='badge Map--badge'>
                     <p>🗺 Google Maps</p>
                 </div>
-                <img src={Std} alt='Place'></img>
+                <img src={place.image} alt='Place'></img>
          </div>
          <div className='PlaceCard--Info'>
                 <p className='text-description'>

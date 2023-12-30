@@ -16,7 +16,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/VisitPlaces/:stadiumId">
-        <VisitPlaces />
+          <VisitPlaces />
         </Route>
       </Switch>
       <Footer />
