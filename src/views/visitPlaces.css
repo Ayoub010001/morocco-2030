@@ -202,11 +202,9 @@ form{
     box-shadow: 4px 4px 20px 0px rgb(14, 59, 29);
 }
 .PlaceCard--Img {
-    height: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 30px;
-
     height: 445px;
 }
 .distance--badge{
@@ -294,5 +292,12 @@ form{
         padding: 20px 20px;
     }
     .PlaceCard--Info{
-        max-height: 100%;}
+        max-height: 100%;
+    }
+    .PlaceCard--Img {
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
+        height: 225px;
+    }
   }
