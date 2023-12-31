@@ -74,62 +74,26 @@ footer{
 }
 
 /*Hero section Text*/
-
+/*
 .Hero-main > h1{
     color: #FFF;
     font-family: Montserrat;
     font-size: 70px;
     font-style: normal;
     font-weight: 700;
-    line-height: 70px; /* 100% */
+    line-height: 70px; 
     text-transform: capitalize;
 }
-
+*/
 .Hero-main > p{
     color: #FFF;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 147.3%; /* 29.46px */
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
-
-@media only screen and (max-width: 1060px) {
-    .Hero-section, .counter, .Main--section , .country--section, .Main--section > h1{
-        margin: 0 8%;
-    }
-  }
-
-  @media (max-width: 650px) {
-    .Hero-section{
-        flex-direction: column;
-        margin-top: 50px;
-    }
-    .Hero-main{
-        width: 100%;
-    }
-    .Hero-img{
-        height: 300px;
-        width: 100%;
-        text-align: center;
-    }
-    .Hero-img > img{
-        height: 100%;
-        width: auto;
-        left: 2%;
-    }
-    .Hero-img > .bg--mascot{
-        left: -8%;
-    }
-    .hero{
-        height: 100%;
-    }
-
-    .counter{
-        gap: 2%;
-    }
-
-  }
 
 
 
@@ -319,3 +283,86 @@ footer{
 .sliders  img{
     user-select: none;
 }
+
+@font-face {
+    font-family: 'AmesterdamFour';
+    src: url('/src/assets/Amsterdam\ Four_ttf\ 400.ttf') ;
+  }
+
+  @font-face {
+    font-family: 'LeagueGothic';
+    src: url('/src/assets/LeagueGothic-Regular-VariableFont_wdth.ttf') ;
+  }
+
+
+  .visit2030 {
+    font-family: 'AmesterdamFour';
+    color: #AB1820; 
+    font-size: 130px;
+    margin-top: -110px;
+    margin-left: 40px;
+  }
+
+  .welcome{
+    font-family: 'LeagueGothic';
+    color: antiquewhite;
+    font-size: 170px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; 
+    text-transform: capitalize;
+    margin-top: 100px;
+  }
+
+@media only screen and (max-width: 1060px) {
+    .Hero-section, .counter, .Main--section , .country--section, .Main--section > h1{
+        margin: 0 8%;
+    }
+    .visit2030 {
+        font-size: 64px;
+        margin-top: -60px;
+    }
+    .welcome{
+        font-size: 80px;
+    }
+  }
+
+@media (max-width: 650px) {
+    .Hero-section{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .Hero-main{
+        width: 100%;
+    }
+    .Hero-img{
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+    .Hero-img > img{
+        height: 100%;
+        width: auto;
+        left: 2%;
+    }
+    .Hero-img > .bg--mascot{
+        left: -8%;
+    }
+    .hero{
+        height: 100%;
+    }
+
+    .counter{
+        gap: 2%;
+    }
+    .visit2030 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .welcome{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+  }
+
